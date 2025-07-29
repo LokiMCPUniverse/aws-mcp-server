@@ -32,3 +32,6 @@ dev = [
 
 [project.scripts]
 aws-mcp = "aws_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aws_mcp"]
